@@ -33,9 +33,9 @@ const Contact: React.FC = () => {
 
       <div className={styles.socials}>
         <p>Or connect with me:</p>
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">GitHub</a> |{' '}
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">LinkedIn</a> |{' '}
-        <a href="mailto:youremail@example.com">Email</a>
+        <a href="https://github.com/jos685" target="_blank" rel="noopener noreferrer">GitHub</a> |{' '}
+        <a href="https://www.linkedin.com/in/joseph-owang254" target="_blank" rel="noopener noreferrer">LinkedIn</a> |{' '}
+        <a href="mailto:odourjosephowang@gmail.com">Email</a>
       </div>
     </div>
   );
