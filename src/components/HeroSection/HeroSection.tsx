@@ -1,12 +1,12 @@
 'use client'
 import React from 'react';
 import { FaFacebook, FaTwitter, FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa';
-import { TypeAnimation } from 'react-type-animation';
+
 
 export default function HeroSection(){
  
   return( 
-    <div className='HeroSection'>
+    <div id='about' className='HeroSection'>
 
     <div className='hero-Icons'>
     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
@@ -28,16 +28,16 @@ export default function HeroSection(){
     
     <div className='Welcome'>
       <h1>
-        Hello, Am Joseph Oduor Owang
+        Hello, I'm Oduor Joseph Owang
       </h1>
     
-        <p>A Full Stack Developer with skills in Frontend Using Javascript Framework; React, Next Js with Typescript.<br/>
-           On the BAckend, I utilise Django, Laravel And Node Js. I love building problem solving applications and websites.
+        <p>A Full Stack Developer skilled in Frontend technologies like Javascript Framework; React, Next Js with Typescript.<br/>
+           On the backend, I utilize Django, Laravel And Node Js.
         
        </p>
-          <button className='btn'>
-            VIEW WORK
-          </button>
+
+       <a className='btn' href="#projects">VIEW WORK</a>
+
     </div>
     </div>
     )

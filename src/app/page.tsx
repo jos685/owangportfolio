@@ -3,6 +3,7 @@ import HeroSection from 'components/HeroSection/HeroSection';
 import Languages from 'components/Languages/Lang';
 import Project from 'components/Project/project';
 import Contact from 'components/Contact/contact';
+import Services from 'components/Services/services'
 
 export default function HomePage(){
     return(
@@ -10,6 +11,7 @@ export default function HomePage(){
           <HeroSection />  
           <Languages />
           <Project />
+          <Services/>
           <Contact/>
         </main>
     )

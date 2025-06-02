@@ -4,50 +4,10 @@
   padding: 0;
 }
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: antiquewhite;
-    list-style: none;
-    gap: 1rem;
-    padding: 0;
-    margin: 0;
-    height: 80px;
-    border-radius: 10px;
-    right: 0;
-  }
-  
-  .nav-list li{
-    margin-left: 20px;
-    display: flex;
+html {
+  scroll-behavior: smooth;
+}
 
-  }
-
-  .nav-list ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-
-  .nav-list a{
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  .nav-list li a:hover {
-    color: blue;
-  }
-
-  .logo{
-    width:80px ;
-    height: 80px;
-    border-radius:40px ;
-  }
 
   .HeroSection{
     display: flex;
@@ -72,6 +32,7 @@
   .Welcome p{
     font-family: sans-serif;
     line-height: 1.6;
+  
     
   }
   .hero-Icons{
@@ -111,14 +72,19 @@
     }
   }
   .btn{
-    background-color: rgb(104, 96, 250);
-    padding: 15px 15px;
+    background-color: rgb(10, 10, 18);
+    padding: 5px 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
+    text-decoration-line: none;
+    color: white;
+    margin-top: 5rem;
+  
+    
   }
   .btn:hover{
     
-    background-color: #363434;
+    background-color: #6144f4;
     
   }
 

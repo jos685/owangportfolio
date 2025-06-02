@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import styles from '../../styles/Navbar.module.css'; // Modular CSS
+import styles from './Navbar.module.css'; // Modular CSS
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +13,7 @@ const Navbar: React.FC = () => {
   return (
     <header className={styles.header}>
       
-      <div className={styles.brand}><img src="../logo/logo.jpg" alt="" className='logo'/></div>
+      <div className={styles.brand}><img src="../logo/logo.jpg" alt="" className={styles.logo}/></div>
 
       <button className={styles.menuButton} onClick={toggleNav}>
         ☰
@@ -21,7 +21,7 @@ const Navbar: React.FC = () => {
 
       <nav className={`${styles.nav} ${isOpen ? styles.open : ''}`}>
         <ul>
-          <li><a href="#home" onClick={() => setIsOpen(false)}>Home</a></li>
+          <li><a href="/" onClick={() => setIsOpen(false)}>Home</a></li>
           <li><a href="#about" onClick={() => setIsOpen(false)}>About</a></li>
           <li><a href="#services" onClick={() => setIsOpen(false)}>Services</a></li>
           <li><a href="#contact" onClick={() => setIsOpen(false)}>Contact</a></li>
