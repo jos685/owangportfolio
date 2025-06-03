@@ -1,0 +1,83 @@
+
+.HeroSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    padding: 4rem 2rem;
+    background-color: rgb(225, 226, 227);
+  }
+    
+  
+  .hero_Icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 40px;
+    gap: 30px;
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    z-index: 1000;
+    transform: translateY(-50%);
+    
+  }
+  .hero_Icons a {
+   font-size: 24px;
+    transition: transform 0.3s, color 0.3s;
+    
+  }
+  .hero_Icons a:hover{
+    transform: scale(1.2);
+    color: #333;
+  }
+
+  .Welcome{
+    text-align: center;
+    max-width: 600px;
+    
+  }
+  .Welcome .h1{
+    font-weight: bolder;
+    font-family: sans-serif;
+    justify-content: center;
+    margin-bottom: 2rem;
+    color: #333;
+
+  }
+  .Welcome p{
+    font-family: sans-serif;
+    line-height: 1.8;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin-bottom: 0;
+  
+  }
+  .btn{
+    background-color: rgb(10, 10, 18);
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration-line: none;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  
+    
+  }
+  .btn:hover{
+    
+    background-color: #6144f4;
+    
+  }
+
+  @media(max-width: 480px){
+    .welcome h1{
+      font-size: 1.2rem;
+    }
+    .Welcome p {
+        font-size: 1rem;
+    }
+
+  }

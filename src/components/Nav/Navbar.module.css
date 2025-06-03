@@ -1,5 +1,6 @@
 .header {
     position: fixed;
+    top: 0;
     width: 100%;
     height: 80px;
     z-index: 1000;
@@ -8,13 +9,23 @@
     padding: 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-
+    justify-content: center;
+    overflow: hidden;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 50% 100%, 0 85%);
+   
   }
-  
+
+ .nav{  
+    pointer-events: auto; /* Re-enable pointer events for navigation elements */
+}
+.nav a {
+  pointer-events: auto;
+}
+
   .brand {
     font-size: 1.5rem;
     font-weight: bold;
+    pointer-events: auto;
   }
   
   .menuButton {
@@ -24,6 +35,8 @@
     font-size: 2rem;
     cursor: pointer;
     display: none;
+    pointer-events: auto;
+    z-index: 1001;
   }
   
   /* Default  nav (desktop) */
@@ -50,6 +63,7 @@
     width:80px ;
     height: 80px;
     border-radius:40px ;
+    pointer-events: auto;
   }
 
   /*Mobile styles*/

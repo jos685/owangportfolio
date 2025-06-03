@@ -12,9 +12,7 @@ const Navbar: React.FC = () => {
 
   return (
     <header className={styles.header}>
-      
-      <div className={styles.brand}><img src="../logo/logo.jpg" alt="" className={styles.logo}/></div>
-
+   
       <button className={styles.menuButton} onClick={toggleNav}>
         ☰
       </button>
