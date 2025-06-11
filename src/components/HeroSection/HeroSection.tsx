@@ -1,7 +1,8 @@
 'use client'
 import React from 'react';
-import { FaTwitter, FaLinkedin, FaGithub, FaYoutube } from 'react-icons/fa';
+import { FaTwitter, FaYoutube, FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
 import styles from './HeroSection.module.css'
+import { BsTwitterX } from 'react-icons/bs';
 
 
 export default function HeroSection(){
@@ -12,16 +13,20 @@ export default function HeroSection(){
     <div className={styles.hero_Icons}>
   
       <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-        <FaTwitter/>
+        <BsTwitterX/>
       </a>
       <a href="https://www.linkedin.com/in/joseph-owang254" target="_blank" rel="noopener noreferrer">
         <FaLinkedin />
       </a>
       <a href="https://github.com/jos685" target="_blank" rel="noopener noreferrer">
-        <FaGithub />
+        <FaFacebook />
       </a>
       <a href="https://www.youtube.com/@josephowang7639" target="_blank" rel="noopener noreferrer">
         <FaYoutube />
+      </a>
+
+      <a href="https://www.youtube.com/@josephowang7639" target="_blank" rel="noopener noreferrer">
+        <FaInstagram />
       </a>
     </div>
     
