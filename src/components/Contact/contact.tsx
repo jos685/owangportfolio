@@ -30,8 +30,17 @@ const Contact: React.FC = () => {
   return (
     <div  id= 'contact' className={styles.contactContainer}>
       <h1 className={styles.h1}>Contact Me</h1>
-      <p className={styles.p}>If you'd like to work together or have any questions, feel free to reach out!</p>
-
+      <p className={styles.p}>
+         If you'd like to work together or have any questions, 
+         feel free to reach out at ::
+              <a href="mailto:odourjosephowang@gmail.com" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                                odourjosephowang@gmail.com
+                    </a> 
+               or via phone at ::
+              <a href="tel:+254768131905" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                       +254 768 131 905
+                 </a>.
+               </p>
       <form
         ref={form}
         onSubmit={sendEmail}
@@ -64,7 +73,7 @@ const Contact: React.FC = () => {
       <div className={styles.socials}>
         <p>Or connect with me:</p>
         <a href="https://github.com/jos685" target="_blank" rel="noopener noreferrer">GitHub</a> |{' '}
-        <a href="https://www.linkedin.com/in/joseph-owang254" target="_blank" rel="noopener noreferrer">LinkedIn</a> |{' '}
+        <a href="https://www.linkedin.com/in/joseph-owang" target="_blank" rel="noopener noreferrer">LinkedIn</a> |{' '}
         <a href="mailto:odourjosephowang@gmail.com">Email</a>
       </div>
     </div>

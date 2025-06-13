@@ -15,17 +15,17 @@ export default function HeroSection(){
       <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
         <BsTwitterX/>
       </a>
-      <a href="https://www.linkedin.com/in/joseph-owang254" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.linkedin.com/in/joseph-owang" target="_blank" rel="noopener noreferrer">
         <FaLinkedin />
       </a>
       <a href="https://github.com/jos685" target="_blank" rel="noopener noreferrer">
         <FaFacebook />
       </a>
-      <a href="https://www.youtube.com/@josephowang7639" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
         <FaYoutube />
       </a>
 
-      <a href="https://www.youtube.com/@josephowang7639" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
         <FaInstagram />
       </a>
     </div>
